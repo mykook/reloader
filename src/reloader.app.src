@@ -1,0 +1,6 @@
+{application, reloader, [{description, "Reloader"},
+                         %% This should always correspond with the version
+                         %% number of the mirrored MochiWeb source.
+                         {vsn, "2.5.0"},
+                         {env, []},
+                         {applications, [kernel, stdlib]}]}.
